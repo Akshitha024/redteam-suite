@@ -19,7 +19,7 @@ Reproduce: `make install && make bench`.
 
 ```mermaid
 flowchart LR
-  A[Probe library\n(6 benign attacks across 3 kinds)] --> B[Target chatbots\n(naive, keyword_filter, strict)]
+  A["Probe library\n(6 benign attacks across 3 kinds)"] --> B["Target chatbots\n(naive, keyword_filter, strict)"]
   B --> C[ASR scorer]
   C --> D[5 chart families + summary.json]
 ```

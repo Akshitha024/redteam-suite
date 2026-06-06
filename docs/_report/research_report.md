@@ -36,8 +36,8 @@ All probes are benign. Their "success markers" are non-actionable sentinel strin
 
 ```mermaid
 flowchart LR
-  A[Probe library\n(6 probes x 3 kinds)] --> B[Target chatbots\n(naive, keyword_filter, strict)]
-  B --> C[ASR scorer\n(refused vs marker-in-output)]
+  A["Probe library\n(6 probes x 3 kinds)"] --> B["Target chatbots\n(naive, keyword_filter, strict)"]
+  B --> C["ASR scorer\n(refused vs marker-in-output)"]
   C --> D[5 chart families + summary.json]
 ```
 
