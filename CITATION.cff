@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: redteam-suite
+message: "Defensive red-team prompt suite for evaluating LLM guardrails."
+authors:
+  - family-names: "Lingampally"
+    given-names: "Akshitha Reddy"
+date-released: "2025-03-14"
+version: "0.3.0"
+license: "MIT"
+url: "https://github.com/Akshitha024/redteam-suite"

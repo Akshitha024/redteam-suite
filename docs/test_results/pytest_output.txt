@@ -1,0 +1,17 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.13.3, pytest-9.0.3, pluggy-1.6.0 -- /Users/mani/Projects/akshitha-portfolio/projects/redteam-suite/.venv/bin/python3
+cachedir: .pytest_cache
+rootdir: /Users/mani/Projects/akshitha-portfolio/projects/redteam-suite
+configfile: pyproject.toml
+testpaths: tests
+plugins: cov-7.1.0
+collecting ... collected 6 items
+
+tests/test_probes.py::test_all_kinds_present PASSED                      [ 16%]
+tests/test_probes.py::test_each_probe_has_success_marker PASSED          [ 33%]
+tests/test_runner.py::test_runner_smoke PASSED                           [ 50%]
+tests/test_targets.py::test_naive_always_succeeds_attacks PASSED         [ 66%]
+tests/test_targets.py::test_strict_always_refuses PASSED                 [ 83%]
+tests/test_targets.py::test_keyword_filter_blocks_some PASSED            [100%]
+
+============================== 6 passed in 0.45s ===============================
